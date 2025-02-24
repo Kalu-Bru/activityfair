@@ -7,7 +7,7 @@ module.exports = {
         sepolia: {
           chainId: 11155111,
           url: "https://eth-sepolia.g.alchemy.com/v2/hLji9Ff_lKPE631jRXjrHF4KBk9r8GHi",
-          accounts: ["cafaa8e658fef4847a74d0bc1dedf3f609ed17d0f24e21ef657152238edf69b2"]
+          accounts: ["75c7aa1e1b88907d9a2074bde0675f1c9d2b58cf71ff06befff5785c4be21083"]
         }
     }
 };

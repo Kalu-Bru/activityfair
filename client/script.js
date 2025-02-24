@@ -100,7 +100,7 @@ document.getElementById("mintButton").addEventListener("click", async () => {
     
 
     try {
-        const response = await fetch("https://37aa-77-59-240-186.ngrok-free.app/api/mint", {
+        const response = await fetch("https://activityfair-ede8b4740f18.herokuapp.com/api/mint", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ username, account: userAccount }),
