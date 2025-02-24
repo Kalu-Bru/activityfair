@@ -1,0 +1,316 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'DO Futuristic', sans-serif;
+    background-color: #d3d3d3;
+    background-image: linear-gradient(315deg, #d3d3d3 0%, #2bc96d 74%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    height: 90%;
+    color: black;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container span {
+    margin: 5% 0% 3% 0%;
+}
+
+#connectButton {
+    width: 40%;
+    height: 5%;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #007aff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    position: relative;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+}
+
+@keyframes wobble {
+    0%, 100% { 
+      transform: rotate(0deg); 
+      text-shadow: 2px 2px 5px rgba(225, 0, 150, 0.4);
+    }
+    15% { 
+      transform: rotate(5deg);
+      text-shadow: 5px 5px 10px rgba(225, 0, 150, 0.5);
+    }
+    30% { 
+      transform: rotate(-5deg);
+      text-shadow: 8px 8px 15px rgba(225, 0, 150, 0.6);
+    }
+    45% { 
+      transform: rotate(3deg);
+      text-shadow: 10px 10px 20px rgba(225, 0, 150, 0.7);
+    }
+    60% { 
+      transform: rotate(-3deg);
+      text-shadow: 12px 12px 25px rgba(225, 0, 150, 0.8);
+    }
+    75% { 
+      transform: rotate(1deg);
+      text-shadow: 15px 15px 30px rgba(225, 0, 150, 0.9);
+    }
+    90% { 
+      transform: rotate(-1deg);
+      text-shadow: 18px 18px 35px rgb(225, 0, 150);
+    }
+}
+
+.container img {
+    animation: wobble 2s ease-in-out infinite;
+}
+
+#mintButton {
+    height: 5%;
+    width: 30%;
+    background: rgb(131, 249, 131);
+    border: none;
+    border-radius: 5px;
+    font-family: 'DO Futuristic', sans-serif;
+    letter-spacing: 1px;
+    font-size: 10px;
+    color: black;
+}
+
+input {
+    background: lightgreen;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+input::placeholder {
+    color: black;
+    font-family: 'DO Futuristic', sans-serif;
+    letter-spacing: 1px;
+    font-size: 10px;
+    padding-left: 10%;
+}
+
+#tokenize-buffer {
+    position: absolute;
+    font-family: 'Poppins', sans-serif; 
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 300px;
+    font-size: 1.5rem;
+    background: none;
+    z-index: 100;
+    transition: all ease 0.5s;
+}
+
+/* Cube Animation*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+.container-cube-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 50%;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateX(-37.5deg) rotateY(45deg);
+    }
+    50% {
+        transform: rotateX(-37.5deg) rotateY(405deg);
+    }
+    100% {
+        transform: rotateX(-37.5deg) rotateY(405deg);
+    }
+}
+
+.cube, .cube * {
+    position: absolute;
+    width: 151px;
+    height: 151px;
+}
+
+.sides {
+    animation: rotate 3s ease infinite;
+    animation-delay: .8s;
+    transform-style: preserve-3d;
+    transform: rotateX(-37.5deg) rotateY(45deg);
+}
+
+.cube .sides * {
+    box-sizing: border-box;
+    background-color: rgba(119, 242, 148, 0.5);
+    border: 15px solid white;
+}
+
+.cube .sides .top {
+    animation: top-animation 3s ease infinite;
+    animation-delay: 0ms;
+    transform: rotateX(90deg) translateZ(150px);
+    animation-fill-mode: forwards;
+    transform-origin: 50% 50%;
+}
+
+.cube .sides .bottom {
+    animation: bottom-animation 3s ease infinite;
+    animation-delay: 0ms;
+    transform: rotateX(-90deg) translateZ(150px);
+    animation-fill-mode: forwards;
+    transform-origin: 50% 50%;
+}
+
+.cube .sides .front {
+    animation: front-animation 3s ease infinite;
+    animation-delay: 100ms;
+    transform: rotateY(0deg) translateZ(150px);
+    animation-fill-mode: forwards;
+    transform-origin: 50% 50%;
+}
+
+.cube .sides .back {
+    animation: back-animation 3s ease infinite;
+    animation-delay: 100ms;
+    transform: rotateY(-180deg) translateZ(150px);
+    animation-fill-mode: forwards;
+    transform-origin: 50% 50%;
+}
+
+.cube .sides .left {
+    animation: left-animation 3s ease infinite;
+    animation-delay: 100ms;
+    transform: rotateY(-90deg) translateZ(150px);
+    animation-fill-mode: forwards;
+    transform-origin: 50% 50%;
+}
+
+.cube .sides .right {
+    animation: right-animation 3s ease infinite;
+    animation-delay: 100ms;
+    transform: rotateY(90deg) translateZ(150px);
+    animation-fill-mode: forwards;
+    transform-origin: 50% 50%;
+}
+
+@keyframes top-animation {
+    0% { opacity: 1; transform: rotateX(90deg) translateZ(150px); }
+    20% { opacity: 1; transform: rotateX(90deg) translateZ(75px); }
+    70% { opacity: 1; transform: rotateX(90deg) translateZ(75px); }
+    90% { opacity: 1; transform: rotateX(90deg) translateZ(150px); }
+    100% { opacity: 1; transform: rotateX(90deg) translateZ(150px); }
+}
+
+@keyframes bottom-animation {
+    0% { opacity: 1; transform: rotateX(-90deg) translateZ(150px); }
+    20% { opacity: 1; transform: rotateX(-90deg) translateZ(75px); }
+    70% { opacity: 1; transform: rotateX(-90deg) translateZ(75px); }
+    90% { opacity: 1; transform: rotateX(-90deg) translateZ(150px); }
+    100% { opacity: 1; transform: rotateX(-90deg) translateZ(150px); }
+}
+
+@keyframes front-animation {
+    0% { opacity: 1; transform: rotateY(0deg) translateZ(150px); }
+    20% { opacity: 1; transform: rotateY(0deg) translateZ(75px); }
+    70% { opacity: 1; transform: rotateY(0deg) translateZ(75px); }
+    90% { opacity: 1; transform: rotateY(0deg) translateZ(150px); }
+    100% { opacity: 1; transform: rotateY(0deg) translateZ(150px); }
+}
+
+@keyframes back-animation {
+    0% { opacity: 1; transform: rotateY(-180deg) translateZ(150px); }
+    20% { opacity: 1; transform: rotateY(-180deg) translateZ(75px); }
+    70% { opacity: 1; transform: rotateY(-180deg) translateZ(75px); }
+    90% { opacity: 1; transform: rotateY(-180deg) translateZ(150px); }
+    100% { opacity: 1; transform: rotateY(-180deg) translateZ(150px); }
+}
+
+@keyframes left-animation {
+    0% { opacity: 1; transform: rotateY(-90deg) translateZ(150px); }
+    20% { opacity: 1; transform: rotateY(-90deg) translateZ(75px); }
+    70% { opacity: 1; transform: rotateY(-90deg) translateZ(75px); }
+    90% { opacity: 1; transform: rotateY(-90deg) translateZ(150px); }
+    100% { opacity: 1; transform: rotateY(-90deg) translateZ(150px); }
+}
+
+@keyframes right-animation {
+    0% { opacity: 1; transform: rotateY(90deg) translateZ(150px); }
+    20% { opacity: 1; transform: rotateY(90deg) translateZ(75px); }
+    70% { opacity: 1; transform: rotateY(90deg) translateZ(75px); }
+    90% { opacity: 1; transform: rotateY(90deg) translateZ(150px); }
+    100% { opacity: 1; transform: rotateY(90deg) translateZ(150px); }
+}
+
+.text {
+    margin-top: 450px;
+    color: #26b445;
+    font-size: 1.5rem;
+    font-family: 'DO Futuristic', sans-serif;
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.metamask-info {
+    position: absolute;
+    width: 90%;
+    top: 10%;
+    left: 5%;
+    transition: all ease 0.5s;
+    z-index: 1000;
+    color: white;
+}
+
+.metamask-info span {
+    margin: 0% 0% 3% 0%;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.metamask-info input {
+    font-size: 10px;
+    margin-bottom: 10%;
+    color: black;
+}
+
+#export-fields {
+    padding-top: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+#matrixCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 1000;
+}
+
+#scl-logo {
+    animation: none;
+}

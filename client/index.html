@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mint NFT</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/do-futuristic" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/anurati" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <img id="scl-logo" src="SCL_Logo.png" alt="SCL Logo" style="width: 300px; height: 50px;">
+        <div id="title">
+            <h1>Thanks for participating! Here is a free NFT for you!</h1>
+        </div>
+        <span>1. Connect your metamask account</span>
+        <button id="connectButton">
+            <img src="metamask-logo.png" alt="MetaMask Logo" style="width: 20px; height: 20px; margin-right: 5px;">
+            Connect Wallet
+        </button>
+        <span>2. Insert your name or username</span>
+        <input type="text" id="username" placeholder="Enter your username" required>
+        <span>3. Perfect! Now you're ready to mint and receive your NFT!</span>
+        <button id="mintButton" disabled>Mint NFT</button>
+    </div>
+    <div class="metamask-info" style="display:none;"> 
+        <h1>NFT successfully minted!</h1>
+        <span>Next steps:</span>
+        <div></div>
+        <span>Copy the following Address and remember the Token ID, navigate to the NFTs section, then click on "Import NFT" and paste the Address and Token ID:</span>
+        <div></div>
+        <div id="export-fields">
+            <label for="nftAddress" style="width:100%;">Address:</label>
+            <input id="nft-address" type="text" value="" name="nftAddress" readonly>
+            <label for="tokenId">Token ID:</label>
+            <input id="token-id" type="text" value="" name="tokenId" readonly>
+        </div>
+    </div>
+    <div id="tokenize-buffer" style="display:none;">
+        <div class="container-cube-animation">
+            <div class="cube">
+                <div class="sides">
+                    <div class="top"></div>
+                    <div class="right"></div>
+                    <div class="bottom"></div>
+                    <div class="left"></div>
+                    <div class="front"></div>
+                    <div class="back"></div>
+                </div>
+            </div>
+            <div class="text">Minting NFT</div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.6.4/dist/ethers.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
