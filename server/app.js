@@ -17,7 +17,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "../client")));
 
-const contractAddress = "0xc61f87B1F7ecfF02bFEcf9ad6862A9ce427dDd26";
+const contractAddress = process.env.CONTRACT_ADDRESS;
 const abi = require("../artifacts/contracts/NFT.sol/NFT.json").abi;
 
 const provider = new ethers.providers.JsonRpcProvider(process.env.ALCHEMY_URL);

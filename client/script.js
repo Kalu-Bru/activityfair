@@ -1,4 +1,6 @@
+require("dotenv").config();
 let userAccount = null;
+const PORT = process.env.PORT || 3000;
 
 document.getElementById("connectButton").addEventListener("click", async () => {
     if (!window.ethereum) {
@@ -100,7 +102,7 @@ document.getElementById("mintButton").addEventListener("click", async () => {
     
 
     try {
-        const response = await fetch("https://activityfair-ede8b4740f18.herokuapp.com/api/mint", {
+        const response = await fetch(`https://localhost:${PORT}/api/mint`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ username, account: userAccount }),
@@ -112,7 +114,7 @@ document.getElementById("mintButton").addEventListener("click", async () => {
             document.getElementById('tokenize-buffer').style.display = "none";
 
             const tokenId = result.tokenId;
-            document.getElementById('nft-address').value = "0xc61f87B1F7ecfF02bFEcf9ad6862A9ce427dDd26";
+            document.getElementById('nft-address').value = process.env.CONTRACT_ADDRESS;
             document.getElementById('token-id').value = tokenId;
             document.querySelector(".metamask-info").style.display = "block";
             canvasAnimation();
