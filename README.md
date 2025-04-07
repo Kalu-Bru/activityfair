@@ -57,7 +57,7 @@ A simple landing page to mint a personal NFT and import it into the user's walle
 
   Then deploy the contract with the following command:
 
-    npx hardhat run src/deploy.js --network sepolia
+    npx hardhat run server/deploy.js --network sepolia
 
 5. Get contract address
 
