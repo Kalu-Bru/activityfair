@@ -1,6 +1,20 @@
-require("dotenv").config();
 let userAccount = null;
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
+let contractAddress = null;
+
+// Fetch contract address when page loads
+async function getContractAddress() {
+    try {
+        const response = await fetch(`http://localhost:${PORT}/api/contract-address`);
+        const data = await response.json();
+        contractAddress = data.contractAddress;
+    } catch (error) {
+        console.error("Error fetching contract address:", error);
+    }
+}
+
+// Call the function when the script loads
+getContractAddress();
 
 document.getElementById("connectButton").addEventListener("click", async () => {
     if (!window.ethereum) {
@@ -99,10 +113,8 @@ document.getElementById("mintButton").addEventListener("click", async () => {
         return;
     }
 
-    
-
     try {
-        const response = await fetch(`https://localhost:${PORT}/api/mint`, {
+        const response = await fetch(`http://localhost:${PORT}/api/mint`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ username, account: userAccount }),
@@ -114,7 +126,7 @@ document.getElementById("mintButton").addEventListener("click", async () => {
             document.getElementById('tokenize-buffer').style.display = "none";
 
             const tokenId = result.tokenId;
-            document.getElementById('nft-address').value = process.env.CONTRACT_ADDRESS;
+            document.getElementById('nft-address').value = contractAddress;
             document.getElementById('token-id').value = tokenId;
             document.querySelector(".metamask-info").style.display = "block";
             canvasAnimation();

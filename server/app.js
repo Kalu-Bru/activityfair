@@ -17,6 +17,11 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "../client")));
 
+// Add a route to get the contract address
+app.get("/api/contract-address", (req, res) => {
+    res.json({ contractAddress: process.env.CONTRACT_ADDRESS });
+});
+
 const contractAddress = process.env.CONTRACT_ADDRESS;
 const abi = require("../artifacts/contracts/NFT.sol/NFT.json").abi;
 

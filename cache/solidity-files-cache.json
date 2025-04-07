@@ -1,9 +1,9 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/lucabrulhart/Desktop/ActivityFair/contracts/NFT.sol": {
-      "lastModificationDate": 1740078914953,
-      "contentHash": "3ff5c093d3216edb84c3edb971723b50",
+    "/Users/lucabrulhart/Desktop/Test github/activityfair/contracts/NFT.sol": {
+      "lastModificationDate": 1744019349491,
+      "contentHash": "72f40742fd126c2525a056812ee34641",
       "sourceName": "contracts/NFT.sol",
       "solcConfig": {
         "version": "0.8.28",
@@ -40,8 +40,8 @@
         "NFT"
       ]
     },
-    "/Users/lucabrulhart/Desktop/ActivityFair/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
-      "lastModificationDate": 1739992091746,
+    "/Users/lucabrulhart/Desktop/Test github/activityfair/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
+      "lastModificationDate": 1744019565561,
       "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
       "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
       "solcConfig": {
@@ -76,8 +76,8 @@
         "Counters"
       ]
     },
-    "/Users/lucabrulhart/Desktop/ActivityFair/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol": {
-      "lastModificationDate": 1739992091784,
+    "/Users/lucabrulhart/Desktop/Test github/activityfair/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol": {
+      "lastModificationDate": 1744019565568,
       "contentHash": "de368c6a87e159c86544ae5041b58cf3",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
       "solcConfig": {
@@ -115,8 +115,8 @@
         "ERC721URIStorage"
       ]
     },
-    "/Users/lucabrulhart/Desktop/ActivityFair/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
-      "lastModificationDate": 1739992091780,
+    "/Users/lucabrulhart/Desktop/Test github/activityfair/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
+      "lastModificationDate": 1744019565567,
       "contentHash": "95602b04f0b53f1139f4668d123ddeb7",
       "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
       "solcConfig": {
@@ -159,8 +159,8 @@
         "ERC721"
       ]
     },
-    "/Users/lucabrulhart/Desktop/ActivityFair/node_modules/@openzeppelin/contracts/interfaces/IERC4906.sol": {
-      "lastModificationDate": 1739992091840,
+    "/Users/lucabrulhart/Desktop/Test github/activityfair/node_modules/@openzeppelin/contracts/interfaces/IERC4906.sol": {
+      "lastModificationDate": 1744019565574,
       "contentHash": "d3f355e15269d1476d86c84730cebb5e",
       "sourceName": "@openzeppelin/contracts/interfaces/IERC4906.sol",
       "solcConfig": {
@@ -198,8 +198,8 @@
         "IERC4906"
       ]
     },
-    "/Users/lucabrulhart/Desktop/ActivityFair/node_modules/@openzeppelin/contracts/utils/Context.sol": {
-      "lastModificationDate": 1739992091746,
+    "/Users/lucabrulhart/Desktop/Test github/activityfair/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1744019565561,
       "contentHash": "f07feb4a44b1a4872370da5aa70e8e46",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
@@ -234,8 +234,8 @@
         "Context"
       ]
     },
-    "/Users/lucabrulhart/Desktop/ActivityFair/node_modules/@openzeppelin/contracts/utils/Address.sol": {
-      "lastModificationDate": 1739992091740,
+    "/Users/lucabrulhart/Desktop/Test github/activityfair/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1744019565560,
       "contentHash": "211ffd288c1588ba8c10eae668ca3c66",
       "sourceName": "@openzeppelin/contracts/utils/Address.sol",
       "solcConfig": {
@@ -270,8 +270,8 @@
         "Address"
       ]
     },
-    "/Users/lucabrulhart/Desktop/ActivityFair/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
-      "lastModificationDate": 1739992091871,
+    "/Users/lucabrulhart/Desktop/Test github/activityfair/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
+      "lastModificationDate": 1744019565579,
       "contentHash": "48686fc32a22a3754b8e63321857dd2a",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
       "solcConfig": {
@@ -309,8 +309,8 @@
         "Strings"
       ]
     },
-    "/Users/lucabrulhart/Desktop/ActivityFair/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
-      "lastModificationDate": 1739992091772,
+    "/Users/lucabrulhart/Desktop/Test github/activityfair/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
+      "lastModificationDate": 1744019565564,
       "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
       "solcConfig": {
@@ -347,8 +347,8 @@
         "ERC165"
       ]
     },
-    "/Users/lucabrulhart/Desktop/ActivityFair/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
-      "lastModificationDate": 1739992091841,
+    "/Users/lucabrulhart/Desktop/Test github/activityfair/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
+      "lastModificationDate": 1744019565575,
       "contentHash": "48de4c9a3a4ae5ef66a2aa620843413f",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
       "solcConfig": {
@@ -385,8 +385,8 @@
         "IERC721"
       ]
     },
-    "/Users/lucabrulhart/Desktop/ActivityFair/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
-      "lastModificationDate": 1739992091843,
+    "/Users/lucabrulhart/Desktop/Test github/activityfair/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
+      "lastModificationDate": 1744019565575,
       "contentHash": "c22d4395e33763de693fd440c6fd10e1",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
       "solcConfig": {
@@ -421,8 +421,8 @@
         "IERC721Receiver"
       ]
     },
-    "/Users/lucabrulhart/Desktop/ActivityFair/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
-      "lastModificationDate": 1739992091842,
+    "/Users/lucabrulhart/Desktop/Test github/activityfair/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
+      "lastModificationDate": 1744019565575,
       "contentHash": "efbc0d15b80a74e34dbe8da0f3e879bb",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
       "solcConfig": {
@@ -459,44 +459,8 @@
         "IERC721Metadata"
       ]
     },
-    "/Users/lucabrulhart/Desktop/ActivityFair/node_modules/@openzeppelin/contracts/utils/math/SignedMath.sol": {
-      "lastModificationDate": 1739992091869,
-      "contentHash": "9488ebd4daacfee8ad04811600d7d061",
-      "sourceName": "@openzeppelin/contracts/utils/math/SignedMath.sol",
-      "solcConfig": {
-        "version": "0.8.28",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "SignedMath"
-      ]
-    },
-    "/Users/lucabrulhart/Desktop/ActivityFair/node_modules/@openzeppelin/contracts/utils/math/Math.sol": {
-      "lastModificationDate": 1739992091860,
+    "/Users/lucabrulhart/Desktop/Test github/activityfair/node_modules/@openzeppelin/contracts/utils/math/Math.sol": {
+      "lastModificationDate": 1744019565577,
       "contentHash": "fe63409d8a06818b926cf89e0ea88b1b",
       "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
       "solcConfig": {
@@ -531,8 +495,44 @@
         "Math"
       ]
     },
-    "/Users/lucabrulhart/Desktop/ActivityFair/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
-      "lastModificationDate": 1739992091834,
+    "/Users/lucabrulhart/Desktop/Test github/activityfair/node_modules/@openzeppelin/contracts/utils/math/SignedMath.sol": {
+      "lastModificationDate": 1744019565579,
+      "contentHash": "9488ebd4daacfee8ad04811600d7d061",
+      "sourceName": "@openzeppelin/contracts/utils/math/SignedMath.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SignedMath"
+      ]
+    },
+    "/Users/lucabrulhart/Desktop/Test github/activityfair/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+      "lastModificationDate": 1744019565573,
       "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
       "solcConfig": {
@@ -567,8 +567,8 @@
         "IERC165"
       ]
     },
-    "/Users/lucabrulhart/Desktop/ActivityFair/node_modules/@openzeppelin/contracts/interfaces/IERC165.sol": {
-      "lastModificationDate": 1739992091833,
+    "/Users/lucabrulhart/Desktop/Test github/activityfair/node_modules/@openzeppelin/contracts/interfaces/IERC165.sol": {
+      "lastModificationDate": 1744019565573,
       "contentHash": "ee9624272968c23d93d4c2e39f06e6e2",
       "sourceName": "@openzeppelin/contracts/interfaces/IERC165.sol",
       "solcConfig": {
@@ -603,8 +603,8 @@
       ],
       "artifacts": []
     },
-    "/Users/lucabrulhart/Desktop/ActivityFair/node_modules/@openzeppelin/contracts/interfaces/IERC721.sol": {
-      "lastModificationDate": 1739992091840,
+    "/Users/lucabrulhart/Desktop/Test github/activityfair/node_modules/@openzeppelin/contracts/interfaces/IERC721.sol": {
+      "lastModificationDate": 1744019565575,
       "contentHash": "e6da7798a8c22c5043cc42d64a2a8f80",
       "sourceName": "@openzeppelin/contracts/interfaces/IERC721.sol",
       "solcConfig": {
