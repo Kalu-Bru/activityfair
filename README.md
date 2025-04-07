@@ -34,6 +34,13 @@ A simple landing page to mint a personal NFT and import it into the user's walle
   - **PINATA**: Create an account (select free plan) then navigate to "API Keys" in the sidebar, create a new Key and name it however you want, make sure to give admin permissions (first option) and click enter. The API key and secret key should appear.
   - **ALCHEMY**: Create an account, create an APP and name it however you want, make sure to select ethereum as the network choice, then confirm all the way to create your app. In your App's dashboard, change the network to sepolia and you will see the correct Network URL.
 
+## **Caution**
+   You will need some Sepolia ETH in order to deploy the contract, you can get some for free from the Alchemy faucet (0.001 ETH Mainnet required for verification):
+   https://www.alchemy.com/faucets/ethereum-sepolia
+
+   ![Alt text](server/images/GasFees.png?raw=true)
+##
+
 3. Install Dependencies
 
     Make sure you have Node.js installed, then run:
